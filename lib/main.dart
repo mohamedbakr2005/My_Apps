@@ -13,7 +13,8 @@ void main() {
       child: WeatherApp()));
 }
 
-class WeatherApp extends StatelessWidget {
+// var
+class WeatherApp extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
